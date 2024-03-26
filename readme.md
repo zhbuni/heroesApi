@@ -1,8 +1,8 @@
 Инструкция для локальной проверки сервиса:
 -
 ```console
-foo@bar:~$ docker-compose up
-foo@bar:~$ alembic upgrade head
+docker-compose up
+alembic upgrade head
 ```
 Затем заполняем базу тестовыми данными
 
