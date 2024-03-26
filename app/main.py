@@ -1,5 +1,3 @@
-from typing import Union
-
 from fastapi import FastAPI
 
 from app.api.handlers.hero_info import heroes_router

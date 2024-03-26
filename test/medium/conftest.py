@@ -7,9 +7,9 @@ from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from app.db.models import Base
 from app.api.deps import get_db
 from app.api.handlers.hero_info import heroes_router
+from app.db.models import Base
 
 
 def start_application():

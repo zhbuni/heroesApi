@@ -1,10 +1,10 @@
 import os
 from typing import List
 
-from fastapi import HTTPException
-from sqlalchemy.orm import Session
-from pydantic import TypeAdapter
 from dotenv import load_dotenv
+from fastapi import HTTPException
+from pydantic import TypeAdapter
+from sqlalchemy.orm import Session
 
 from app.api.schemas import RolePresenceSchema, HeroInfoSchema, CounterHeroSchema
 from app.db.queries import get_hero, get_roles, get_counter_heroes
